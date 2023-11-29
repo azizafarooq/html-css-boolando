@@ -1,0 +1,102 @@
+/*Reset*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+.header{
+    background-color: rgb(255 105 0);
+    
+    position: ;
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+.header-container{
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.header-logo{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 35px auto;
+    padding: 0;
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: calc(100% / 4);
+    min-width: 300px;
+    text-align: center;
+    margin: 5px;
+    position: relative;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+
+.card .discount{
+    background: red;
+    color: white;
+    padding: 5px 10px; 
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    z-index:1;
+}
+
+.card .sostenibilità{
+    background: green;
+    color: white;
+    padding: 5px 10px; 
+    position: absolute;
+    left:60px;
+    bottom: 80px;
+    z-index:1 ;
+}
+
+.sostenibilità-last{
+    background: green;
+    color: white;
+    padding: 5px 10px; 
+    position: absolute;
+    left:0;
+    bottom: 80px;
+    z-index:1 ;
+}
+
+.descrizione-prodotto{
+    text-align: left;
+}
+
+.prezzo{
+    color: red;
+}
+
+.prezzo-barrato{
+    text-decoration: line-through;
+    color: black;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+}
